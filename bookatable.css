@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    gap: 800px;
+    position: fixed;
+    height: 150px;
+    background-color: rgb(244, 228, 209);
+}
+
+.nav-one{
+
+}
+
+.nav-one h2{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  margin-left: 120px;
+}
+
+.nav-two{
+    padding-top: 50px;
+}
+
+.nav-two ul{
+    list-style-type: none;
+}
+
+.nav-two ul li{
+    list-style-type: none;
+}
+
+.nav-two ul li a{
+    text-decoration: none;
+    color: rgb(144, 126, 92);
+    padding-right: 27.6px;
+}
+
+#bookatable{
+    color: rgb(92, 74, 40);
+}
+
+.nav-two ul li a:hover{
+    color: rgb(92, 74, 40);
+}
+
+
+.bookatable{
+    padding-top: 200px;
+    height: 700px;
+    background-color: white;
+}
+
+.bookatable-content{
+
+}
+
+.bookatable-content-header{
+    display: flex;
+    padding-left: 340px;
+}
+
+.bookatable-content-header h3{
+    margin-bottom: 95px;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.enquiries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.enquiries-one{
+    width: 400px;
+    background-color: inherit;
+    height: 130px;
+    display: grid;
+    place-items: center;
+}
+
+.enquiries-one p{
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}
+
+#partysize{
+    height: 50px;
+    width: 330px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#partysize:hover{
+    border: 1px solid wheat;
+}
+
+
+
+
+
+
+.pick-time{
+
+}
+
+.pick-time p{
+    
+}
+
+
+
+
+
+
+footer{
+    height: 635px;
+    background-color: rgb(251, 251, 224);
+}
+
+.footer-content{
+    padding-left: 200px;
+}
+
+.icon{
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.icon img{
+    width: 100px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 200px;
+}
+
+.footer-container-one{
+    display: inline;
+}
+
+.footer-container-one h5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.footer-container-one{
+    font-size: 17px;
+}
+
+.footer-container-one h4 {
+    margin-bottom: 5px;
+    font-size: 80px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container-two{
+    padding-top: 80px;
+}
+
+.footer-container-two p{
+}
+
+
+
+
+.footer-links{
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+.footer-links ul{
+
+}
+
+.footer-links ul li{
+    list-style-type: none;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: rgb(144, 126, 92);
+}
+
+.footer-links li a:hover{
+    color: rgb(92, 74, 40);
+}
+

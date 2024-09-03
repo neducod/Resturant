@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    gap: 800px;
+    position: fixed;
+    height: 150px;
+    background-color: rgb(244, 228, 209);
+}
+
+
+.nav-one{
+
+}
+
+.nav-one h2{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  margin-left: 120px;
+}
+
+.nav-two{
+    padding-top: 50px;
+}
+
+.nav-two ul{
+    list-style-type: none;
+}
+
+.nav-two ul li{
+    list-style-type: none;
+}
+
+.nav-two ul li a{
+    text-decoration: none;
+    color: rgb(144, 126, 92);
+    padding-right: 27.6px;
+}
+
+#menu{
+    color: rgb(92, 74, 40);
+}
+
+.nav-two ul li a:hover{
+    color: rgb(92, 74, 40);
+}
+
+
+
+.mmm{
+    height: 150px;
+    background-color: rgb(244, 228, 209);
+}
+
+
+
+.menu{
+   display: flex;
+   gap: 40px;
+}
+
+.menu-content{
+    display: flex;
+    gap: 70px;
+}
+
+.menu-image{}
+   /*position: fixed;
+  top: 90%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);    
+}*/
+
+.menu-image img{
+    position: fixed;
+    height: 600px;
+}
+.menu-text{
+    height: 1000px;
+    width: 630px;
+    background-color: white;
+    padding-left: 700px;
+}
+
+.menu-text-header h2{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 95px;
+  margin-bottom: 50px;
+}
+.menu-text-content{
+
+}
+
+.menu-one{
+
+}
+.menu-one h4{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+.menu-one p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.menu-two{
+    display: flex;
+    gap: 200px;
+}
+.menu-two h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-two p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.menu-three{
+    display: flex;
+    gap: 165.5px;
+}
+.menu-three h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-three p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-four{
+    display: flex;
+    gap: 175.5px;
+}
+.menu-four h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-four p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.menu-five{
+    display: flex;
+    gap: 98px;
+}
+.menu-five h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-five p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-six{
+    display: flex;
+    gap: 175px;
+}
+.menu-six h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-six p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-seven{
+    display: flex;
+    gap: 210px;
+}
+.menu-seven h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-seven p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-eight{
+    display: flex;
+    gap: 250px;
+}
+.menu-eight h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-eight p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-nine{
+    display: flex;
+    gap: 200px;
+}
+.menu-nine h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-nine p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.menu-text-content-two{
+    padding-top: 50px;
+}
+
+.menu-text-content-two-header{
+
+}
+
+.menu-text-content-two-header h2{
+  font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.menu-text-content-two-header p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.menu-ten{
+    display: flex;
+    gap: 200px;
+}
+.menu-ten h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-ten p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.menu-eleven{
+    display: flex;
+    gap: 200px;
+}
+.menu-eleven h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-eleven p{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.menu-text-content-three{
+    padding-top: 50px;
+}
+.menu-text-content-three-header{
+
+}
+
+.menu-text-content-three-header h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.menu-twelve{
+    display: flex;
+    gap: 270px;
+}
+.menu-twelve h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-twelve p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.menu-thirteen{
+    display: flex;
+    gap: 200px;
+}
+.menu-thirteen h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-thirteen p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.menu-fourteen{
+    display: flex;
+    gap: 320px;
+}
+.menu-fourteen h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-fourteen p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.menu-fiveteen{
+    display: flex;
+    gap: 280px;
+}
+.menu-fiveteen h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-fiveteen p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.menu-sixteen{
+    display: flex;
+    gap: 170px;
+}
+.menu-sixteen h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.menu-sixteen p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+/*.hhh{
+    height: 2000px;
+    background-color: white;
+}
+
+*/
+
+footer{
+    height: 635px;
+    width: 1500px;
+    margin-top: 1300px;
+    position: absolute;
+    background-color: rgb(251, 251, 224);
+}
+
+.footer-content{
+    padding-left: 200px;
+}
+
+.icon{
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.icon img{
+    width: 100px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 200px;
+}
+
+.footer-container-one{
+    display: inline;
+}
+
+.footer-container-one h5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.footer-container-one{
+    font-size: 17px;
+}
+
+.footer-container-one h4 {
+    margin-bottom: 5px;
+    font-size: 80px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container-two{
+    padding-top: 80px;
+}
+
+.footer-container-two p{
+}
+
+.footer-links{
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+.footer-links ul{
+
+}
+
+.footer-links ul li{
+    list-style-type: none;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: rgb(144, 126, 92);
+}
+
+.footer-links li a:hover{
+    color: rgb(92, 74, 40);
+}
+
+
+
+#mee{
+    padding-top: 10px;
+}
+
+
+@media all and (max-width: 700px){
+ /*   .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+
+  body{
+    max-width: 600px;
+  }
+  header{
+    width: 415px;
+  }
+
+  nav{
+    height: 20px;
+    width: 415px;
+  }
+  .nav-one {
+    width: 50px;
+    
+  }
+
+  .nav-one h2{
+    width: 10px;
+    font-size: 10px;
+  }
+
+  .nav-two{
+    background-color: black;
+  }
+  .nav-two ul li a{
+    display: none;
+  }
+
+  .nav-two ul li{
+    display: none;
+  }
+
+  .nav-two ul{
+    display: none;
+  }
+  .menu-image{
+    display: none;
+  }
+  .menu-content{
+    gap: 10px
+  }
+  .menu-text{
+    padding-left: 10px;
+    width: 390px;
+  }
+  .menu-tw{
+    gap: 30px;
+  }
+
+  .menu-fourteen{
+    gap: 90px;
+  }
+  .menu-fiveteen{
+    gap: 90px;
+  }
+  footer{
+    height: 400px;
+    width: 415px;
+    margin-top: 1900px;
+}
+    .footer-content{
+        padding-left: 50px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .icon{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .icon img{
+        width: 40px;
+    }
+    .footer-links{
+        display: none;
+    }
+}
